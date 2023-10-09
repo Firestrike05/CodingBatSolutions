@@ -1,0 +1,8 @@
+public boolean hasOne(int n) {
+  Boolean check = false;
+  while(n != 0){
+    if(n % 10 == 1){
+      check = true;
+    } n = n / 10;
+  } return check;
+}
